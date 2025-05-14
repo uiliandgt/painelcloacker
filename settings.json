@@ -1,0 +1,307 @@
+{
+    "white": {
+        "action": "redirect",
+        "folder": {
+            "names": [
+                "white"
+            ]
+        },
+        "redirect": {
+            "type": "303",
+            "urls": [
+                "https://www.hostinger.com.br/tutoriais/como-ganhar-dinheiro-na-internet"
+            ]
+        },
+        "curl": {
+            "urls": [
+                "https://www.9111.ru/"
+            ]
+        },
+        "error": {
+            "codes": []
+        },
+        "domainfilter": {
+            "use": false,
+            "domains": [
+                {
+                    "name": "lalala.xxx.com",
+                    "action": "site:white"
+                },
+                {
+                    "name": "lamama.xxx.com",
+                    "action": "site:white"
+                }
+            ]
+        },
+        "jschecks": {
+            "enabled": false,
+            "events": [
+                "audiocontext",
+                "timezone"
+            ],
+            "timeout": "40000",
+            "obfuscate": true,
+            "timezone": true,
+            "tzstart": "-3",
+            "tzend": "4"
+        }
+    },
+    "black": {
+        "prelanding": {
+            "action": "none",
+            "folders": [
+                "preland"
+            ]
+        },
+        "landing": {
+            "action": "redirect",
+            "folder": {
+                "names": [
+                    "land"
+                ],
+                "conversions": {
+                    "script": "order.php",
+                    "logonbuttonclick": false
+                },
+                "customthankyoupage": {
+                    "use": true,
+                    "language": "RU",
+                    "upsell": {
+                        "use": false,
+                        "imgdir": "img",
+                        "header": "This is a header!",
+                        "text": "This is a text!",
+                        "url": "http://ya.ru"
+                    }
+                }
+            },
+            "redirect": {
+                "urls": [
+                    "https://avaliasaque.com/"
+                ],
+                "type": "303"
+            }
+        },
+        "jsconnect": "replace"
+    },
+    "pixels": {
+        "ya": {
+            "id": ""
+        },
+        "gtm": {
+            "id": ""
+        },
+        "fb": {
+            "subname": "px",
+            "pageview": true,
+            "viewcontent": {
+                "use": false,
+                "time": "30",
+                "percent": "75"
+            },
+            "conversion": {
+                "event": "Lead",
+                "fireonbutton": false
+            }
+        },
+        "tt": {
+            "subname": "tpx",
+            "pageview": true,
+            "viewcontent": {
+                "use": true,
+                "time": "30",
+                "percent": "75"
+            },
+            "conversion": {
+                "event": "Purchase",
+                "fireonbutton": false
+            }
+        }
+    },
+    "tds": {
+        "mode": "on",
+        "saveuserflow": false,
+        "filters": {
+            "allowed": {
+                "countries": [
+                    "BR"
+                ],
+                "os": [
+                    "Android",
+                    "iOS"
+                ],
+                "inurl": [
+                    "CampaignID=",
+                    "adSETID=",
+                    "CreativeID=",
+                    "click_id=",
+                    "pixel_id="
+                ],
+                "languages": [
+                    "pt",
+                    "es"
+                ]
+            },
+            "blocked": {
+                "ips": {
+                    "filename": "",
+                    "cidrformat": false
+                },
+                "tokens": [
+                    "CampaignID=__CMPNID__&adSETID=__ADSETID__&CreativeID=__ADID__&click_id=__CALLBACK__&pixel_id=__KS_PIXELID__"
+                ],
+                "useragents": [
+                    "facebook",
+                    "Facebot",
+                    "curl",
+                    "gce-spider",
+                    "yandex.com/bots",
+                    "OdklBot"
+                ],
+                "isps": [
+                    "facebook",
+                    "google",
+                    "yandex",
+                    "amazon",
+                    "azure",
+                    "digitalocean",
+                    "microsoft",
+                    "hughes",
+                    "colombia",
+                    "tencent",
+                    "shimabukuro",
+                    "latitude",
+                    "china",
+                    "sptel",
+                    "huawei",
+                    "cogent",
+                    "forcepoint",
+                    "lvlt",
+                    "mundivox",
+                    "kaopu",
+                    "cloud",
+                    "hk",
+                    "Limited",
+                    "fdcservers",
+                    "allrede",
+                    "zaaz",
+                    "conecta",
+                    "unifique",
+                    "gasatek",
+                    "bintang",
+                    "nusantara",
+                    "alibaba",
+                    "technology",
+                    "clouds",
+                    "fibrasil",
+                    "oracle",
+                    "batanghari",
+                    "baik",
+                    "ucloud",
+                    "robot",
+                    "hivelocity",
+                    "brainstorm",
+                    "joyo",
+                    "policia",
+                    "justi\u00e7a",
+                    "justi\u00e7a",
+                    "gov",
+                    "federal",
+                    "governo",
+                    "civil",
+                    "policia",
+                    "justi\u00e7a",
+                    "justi\u00e7a",
+                    "gov",
+                    "federal",
+                    "governo",
+                    "civil",
+                    "tribunal"
+                ],
+                "referer": {
+                    "empty": false,
+                    "stopwords": [
+                        "__CALLBACK__",
+                        ""
+                    ]
+                },
+                "vpntor": true
+            }
+        }
+    },
+    "scripts": {
+        "back": {
+            "action": "off",
+            "value": "https://ya.ru"
+        },
+        "disabletextcopy": false,
+        "prelandingreplace": {
+            "use": false,
+            "url": "https://ya.ru"
+        },
+        "landingreplace": {
+            "use": false,
+            "url": "https://ya.ru"
+        },
+        "phonemask": {
+            "use": true,
+            "mask": "+7(\\\\999)999-99-99"
+        },
+        "comebacker": false,
+        "callbacker": false,
+        "addedtocart": false,
+        "imageslazyload": true
+    },
+    "subids": [
+        {
+            "name": "subid",
+            "rewrite": "sub1"
+        },
+        {
+            "name": "adn",
+            "rewrite": "sub2"
+        },
+        {
+            "name": "ad",
+            "rewrite": "sub3"
+        },
+        {
+            "name": "pl",
+            "rewrite": "sub4"
+        }
+    ],
+    "statistics": {
+        "password": "awSE5D9ez5M38KAKBUvLjA7gP4vGsd",
+        "subnames": [
+            {
+                "name": "adn",
+                "value": "Adset"
+            },
+            {
+                "name": "ad",
+                "value": "Creative"
+            },
+            {
+                "name": "pl",
+                "value": "Placement"
+            }
+        ],
+        "timezone": "America/Sao_Paulo"
+    },
+    "postback": {
+        "lead": "Lead",
+        "purchase": "Purchase",
+        "reject": "Reject",
+        "trash": "Trash",
+        "s2s": [
+            {
+                "url": "",
+                "method": "POST",
+                "events": [
+                    "Lead",
+                    "Purchase"
+                ]
+            }
+        ]
+    }
+}
